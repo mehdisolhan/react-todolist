@@ -33,11 +33,6 @@ body{
   background-color: #6d3e01;
   border-color: #6d3e01;
 }
-/* .btn-primary.focus, .btn-primary:focus {
-  color: #fff;
-  background-color: #6d3e01;
-  border-color: #6d3e01;
-} */
 .btn-primary.focus, .btn-primary:focus {
   color: #fff;
   background-color: #6d3e01;
