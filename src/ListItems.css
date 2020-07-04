@@ -1,0 +1,37 @@
+.deleteIcon{
+    position: absolute;
+    margin: 0 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #8B4513;
+}
+.deleteIcon:hover{
+    color: #ff7f24;
+}
+.checkIcon.crossIcon{
+    color: #ff7f24;
+}
+.checkIcon{
+    position: absolute;
+    margin: 0 10px;
+    left: 0px;
+    cursor: pointer;
+    color: #dc6109;
+}
+.checkIcon:hover{
+    color: #b15c20;
+}
+.itemSpan{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+#btnAddNewTask{
+    margin-left: 20px;
+}
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+.list-group-item{
+    background-color: #f9eadb;
+  }
