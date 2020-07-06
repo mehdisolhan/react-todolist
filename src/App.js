@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ListItems from './ListItems';
+import imagePath from './gitLogo.png';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTrash, faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -148,6 +149,10 @@ class App extends React.Component{
 
               </ul>
           </div>
+          <div className="badgeContainer">
+               <span className="badgeGit">MEHDİ SOLHAN, {( new Date().getFullYear())}</span>
+               <a href="https://github.com/mehdisolhan/react-todolist" rel="noopener noreferrer" target="_blank"> <img src={imagePath} alt="source code"></img></a>
+            </div>
       </div>
     );
   }
